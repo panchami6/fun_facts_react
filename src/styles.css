@@ -1,0 +1,51 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #deebf4;
+}
+
+.App {
+  text-align: center;
+  margin: auto;
+  max-width: 600px;
+  padding: 5rem;
+}
+
+.btn {
+  margin: 1rem;
+  padding: 0.3rem;
+  min-width: 60px;
+  border: 1px solid #1a5276;
+  border-radius: 0.5rem;
+}
+
+.navigation {
+  background-color: #1a5276;
+  padding-top: 0.7rem;
+  height: 60px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  border-bottom-left-radius: 1rem;
+}
+
+.navigation small {
+  font-weight: bold;
+}
+
+.footer {
+  background-color: #1a5276;
+  height: 40px;
+  padding-top: 1.2rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-top-right-radius: 1rem;
+}
