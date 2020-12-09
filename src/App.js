@@ -73,18 +73,8 @@ export default function App() {
       </div>
 
       <footer className="footer">
-        <h2>
-          {getScoreText()}: {score}
-        </h2>
+        <h2>Current score: {score}</h2>
       </footer>
     </div>
   );
-
-  function getScoreText() {
-    if (done.length !== quizDB.length) {
-      return "Current score: ";
-    } else {
-      return "Final score: ";
-    }
-  }
 }
